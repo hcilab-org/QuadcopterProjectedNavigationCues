@@ -1,0 +1,164 @@
+﻿<UserControl x:Class="NaviControl.ManualControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NaviControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid Background="#FF424242">
+        <Button x:Name="button_start" Content="" HorizontalAlignment="Left" Margin="447,22,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_start_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/start.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ziel" Content="" HorizontalAlignment="Left" Margin="447,227,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ziel_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/goal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_dreieck" Content="" HorizontalAlignment="Left" Margin="447,432,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_dreieck_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/dreieck.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_quadrat" Content="" HorizontalAlignment="Left" Margin="447,637,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_quadrat_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/quadrat.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_kreis" Content="" HorizontalAlignment="Left" Margin="447,843,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_kreis_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/kreis.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ar0" Content="" HorizontalAlignment="Left" Margin="720,22,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ar0_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_r_0.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ar1" Content="" HorizontalAlignment="Left" Margin="720,227,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ar1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_r_1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ar2" Content="" HorizontalAlignment="Left" Margin="720,432,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ar2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_r_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ar3" Content="" HorizontalAlignment="Left" Margin="720,637,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ar3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_r_3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ar4" Content="" HorizontalAlignment="Left" Margin="720,843,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ar4_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_r_4.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_al0" Content="" HorizontalAlignment="Left" Margin="1017,22,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_al0_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_l_0.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_al1" Content="" HorizontalAlignment="Left" Margin="1017,227,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_al1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_l_1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_al2" Content="" HorizontalAlignment="Left" Margin="1017,432,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_al2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_l_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_al3" Content="" HorizontalAlignment="Left" Margin="1017,637,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_al3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_l_3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_al4" Content="" HorizontalAlignment="Left" Margin="1017,843,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_al4_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_l_4.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahr0" Content="" HorizontalAlignment="Left" Margin="1296,22,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahr0_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hr_0.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahr1" Content="" HorizontalAlignment="Left" Margin="1296,227,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahr1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hr_1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahr2" Content="" HorizontalAlignment="Left" Margin="1296,432,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahr2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hr_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahr3" Content="" HorizontalAlignment="Left" Margin="1296,637,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahr3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hr_3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahr4" Content="" HorizontalAlignment="Left" Margin="1296,843,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahr4_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hr_4.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahl0" Content="" HorizontalAlignment="Left" Margin="1539,23,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahl0_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hl_0.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahl1" Content="" HorizontalAlignment="Left" Margin="1539,228,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahl1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hl_1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahl2" Content="" HorizontalAlignment="Left" Margin="1539,433,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahl2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hl_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahl3" Content="" HorizontalAlignment="Left" Margin="1539,638,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahl3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hl_3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_ahl4" Content="" HorizontalAlignment="Left" Margin="1539,844,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_ahl4_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_hl_4.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_a0" Content="" HorizontalAlignment="Left" Margin="1743,23,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_a0_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_0.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_a1" Content="" HorizontalAlignment="Left" Margin="1743,228,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_a1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_a2" Content="" HorizontalAlignment="Left" Margin="1743,433,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_a2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_a3" Content="" HorizontalAlignment="Left" Margin="1743,638,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_a3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_a4" Content="" HorizontalAlignment="Left" Margin="1743,843,0,0" VerticalAlignment="Top" Width="100" Height="200" Click="button_a4_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/a_4.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_MainMenu" Content="Main Menu" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="213" Height="95" FontSize="32" Click="button_MainMenu_Click"/>
+
+
+    </Grid>
+</UserControl>

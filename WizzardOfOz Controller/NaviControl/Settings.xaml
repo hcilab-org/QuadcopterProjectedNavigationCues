@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="NaviControl.Settings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NaviControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid Background="#FF424242">
+        <Button x:Name="b_return" Content="Return to Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="305" Margin="1526,914,0,0" Height="66" FontSize="32" Click="b_return_Click" TouchDown="b_return_TouchDown" />
+        <Button x:Name="b_setPhone" Content="setIP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="115" Margin="727,219,0,0" Height="44" FontSize="32" Click="b_setPhone_Click" TouchDown="b_setPhone_TouchDown" />
+        <Button x:Name="b_setBeamer" Content="set IP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="115" Margin="232,219,0,0" Height="44" FontSize="32" Click="b_setBeamer_Click" TouchDown="b_setBeamer_TouchDown" />
+        <TextBox x:Name="tb_beamer" HorizontalAlignment="Left" Height="49" TextWrapping="Wrap" Text="Beamer IP" VerticalAlignment="Top" Width="260" Margin="88,150,0,0" FontSize="32"/>
+        <TextBox x:Name="tb_phone" HorizontalAlignment="Left" Height="49" TextWrapping="Wrap" Text="Phone IP" VerticalAlignment="Top" Width="260" Margin="582,150,0,0" FontSize="32"/>
+        <Label x:Name="label" Content="Phone IP-Adress" Foreground="#FFB8B6B6" FontSize="32" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="582,88,0,0"/>
+        <Label x:Name="label1" Content="Beamer IP-Adress" Foreground="#FFB8B6B6" FontSize="32" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="88,88,0,0"/>
+
+    </Grid>
+</UserControl>
